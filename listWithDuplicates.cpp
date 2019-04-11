@@ -42,6 +42,8 @@ int main ()
     return 0;
 }
 
+
+
 // constructor
 ListWithDuplicates::ListWithDuplicates()
 {
@@ -83,7 +85,7 @@ void ListWithDuplicates::Store(ItemType item)
 
 void ListWithDuplicates::PrintList()
 {
-    if (!IsEmpty())
+    if (IsEmpty())
     {
         cout << "Empty list" << endl;
     }
