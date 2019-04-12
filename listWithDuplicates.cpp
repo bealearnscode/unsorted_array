@@ -33,6 +33,9 @@ int main ()
         }
     }
     
+    // print number of items in the list
+    cout << "There are " << listOfWords.GetLength() << " items in the list." << endl;
+    
     // print the list of words
     listOfWords.PrintList();
     
@@ -95,7 +98,6 @@ void ListWithDuplicates::PrintList()
         {
             cout << values[i] << endl;
         }
-        cout << "There are " << GetLength() << " items in the list." << endl;
     }
 }
 
